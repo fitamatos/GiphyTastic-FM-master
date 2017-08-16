@@ -1,0 +1,35 @@
+.styles {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+}
+#color {
+	background-color: black;
+}
+
+.expression, #addExpress{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.expression, #removeExpress{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+.expression:hover, #addExpress:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.expression:hover, #removeExpress:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+form {
+	margin: 20px;
+}
